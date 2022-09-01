@@ -1,0 +1,54 @@
+body{
+    padding:0 100px 0 100px;
+}
+h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+p{ 
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: gray;
+    margin: 10px 0;
+}
+
+.indice{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.indice li{
+    float: left;
+}
+
+.indice li a{
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.indice li a:hover{
+    color: red;
+}
+
+img{
+    display: block;
+    margin: 0px auto;
+    padding: 0;
+    height: 550px;
+    width: 1100px;
+}
+
+h2{
+    text-align: center;
+}
